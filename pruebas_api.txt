@@ -1,0 +1,6 @@
+Dirección con la información de uso:
+https://openweathermap.org/current
+
+URL típica:
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+https://api.openweathermap.org/data/2.5/weather?q=Barcelona&appid=9dfaf2e587aed20167da159df6acfbb9&units=metric&lang=es

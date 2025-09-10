@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/meteo.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Meteo</h1>
+    </header>
+    <main>
+        <form name="formMeteo">
+            <div>
+                <label for="inputCiudad">Ciudad:</label>
+                <input type="text" id="inputCiudad" name="inputCiudad" value="Barcelona">
+            </div>
+            <div>
+                <div>
+                    <label for="inputPais">Código de país:</label>
+                    <input type="text" id="inputPais" name="inputPais" value="es">
+                </div>
+                <div>
+                    <label for="inputIdioma">Código de idioma</label>
+                    <select name="inputIdioma" id="inputIdioma">
+                        <option value="ca" selected>ca</option>
+                        <option value="es">es</option>
+                        <option value="en">en</option>
+                        <option value="fr">fr</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit">Aceptar</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
