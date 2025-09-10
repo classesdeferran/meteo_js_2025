@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meteo</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/meteo.js"></script>
+    <script src="js/meteo.js" defer type="module"></script>
 </head>
 <body>
     <header>
@@ -20,7 +20,7 @@
             <div>
                 <div>
                     <label for="inputPais">Código de país:</label>
-                    <input type="text" id="inputPais" name="inputPais" value="es">
+                    <input type="text" id="inputPais" name="inputPais" >
                 </div>
                 <div>
                     <label for="inputIdioma">Código de idioma</label>
@@ -36,6 +36,11 @@
                 </div>
             </div>
         </form>
+
+        <section>
+            <p id="temp"></p>
+            <div id="icon"></div>
+        </section>
     </main>
 </body>
 </html>
